@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
+
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Test Project</title>
+</head>
+<body>
+  <header>
+      <nav class="navbar">
+          <h1 class="title">Explore Mars</h1>
+      </nav>
+  </header>
+  <hr>
+    <form class="main-from">
+        <h2 class="rover">Choose a rover</h2>
+        <div class="rover-types">
+            <label for="curiosity">Curiosity</label>
+            <input name="curiosity" class="rover-type" type="checkbox" value="curiosity" id="curiosity">
+            <label for="opportunity">Opportunity</label>
+            <input name="opportunity" class="rover-type" type="checkbox" value="opportunity" id="opportunity">
+            <label for="spirit">Spirit</label>
+            <input name="spirit" class="rover-type" type="checkbox" value="spirit" id="spirit">
+        </div>
+
+        <h2 class="rover">Choose a camera</h2>
+        <div class="cameras">
+            <label for="front">Front</label>
+            <input id="front" name="front" class="camera-type" type="checkbox" value="fhaz">
+            <label for="rear">Rear</label>
+            <input id="rear" name="rear" class="camera-type" type="checkbox" value="rhaz">
+            <label for="nav">Navigation cam</label>
+            <input id="nav" name="nav" class="camera-type" type="checkbox" value="navcam">
+        </div>
+        <div class="sol">
+            <label for="sol">Sol number</label>
+            <input id="number" class="number-input" type="number" name="sol">
+            <!-- <div><input class="submit-button" type="submit"></div>  -->
+            <button class="mdc-button mdc-button--raised submit-button">Submit</button>
+        </div>
+     </form>
+     <hr>
+     <div class="images-container">
+        <!-- <img class="image" src="https://scontent.fiev11-1.fna.fbcdn.net/v/t1.6435-9/136657474_4868548809886191_44985180909801374_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=bZGXGXbGGngAX8EHNr0&_nc_ht=scontent.fiev11-1.fna&oh=7e82c9f93ce3b729ba6d17f24285945e&oe=60ADE1A5"> -->
+     </div>
+     <button class="mdc-button mdc-button--raised pagination-button">Load More...</button>
+</body>
+<script src="script.js"></script>
+</html>

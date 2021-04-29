@@ -1,0 +1,28 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "@material/checkbox": "^11.0.0",
+    "material-components-web": "^11.0.0"
+  },
+  "name": "testproject",
+  "version": "1.0.0",
+  "main": "script.js",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

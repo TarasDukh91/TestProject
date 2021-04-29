@@ -1,0 +1,149 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  background-color: #121212;
+}
+
+.navbar {
+  background-color: #121212;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+body {
+  background-color: #121212;
+}
+
+.title {
+  color: #6200ee;
+}
+
+.sidebar {
+  padding-left: 20px;
+  width: 30%;
+  border-right: 1px solid white;
+}
+
+.rover-types {
+  display: flex;
+  justify-content: center;
+}
+
+.rover {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.rover-type {
+  -webkit-appearance: none;
+  background-color: #fafafa;
+  border: 10px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+.rover-type:active, .rover-type:checked:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.rover-type:checked {
+  background-color: #e9ecee;
+  border: 10px solid #adb8c0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+  color: #99a1a7;
+}
+
+.rover-type:checked:after {
+  content: "✔";
+  font-size: 25px;
+  position: absolute;
+  bottom: -10px;
+  left: -5px;
+  color: #6200ee;
+}
+
+label {
+  color: white;
+  font-size: 1rem;
+}
+
+.cameras {
+  display: flex;
+  justify-content: center;
+}
+
+.sol {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button {
+  background-color: white;
+}
+
+.number-input {
+  background-color: white;
+}
+
+.image {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.rover {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.camera-type {
+  -webkit-appearance: none;
+  background-color: #fafafa;
+  border: 10px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.camera-type:active, .camera-type:checked:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.camera-type:checked {
+  background-color: #6200ee;
+  border: 10px solid #adb8c0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+  color: #99a1a7;
+}
+
+.camera-type:checked:after {
+  content: "✔";
+  font-size: 25px;
+  position: absolute;
+  bottom: -10px;
+  left: -5px;
+  color: #6200ee;
+}
+
+.pagination-button {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
